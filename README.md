@@ -1,6 +1,6 @@
 # Capital Asset Pricing Model (CAPM) – Multi-Asset & Portfolio Analysis
 
-## 📌 Overview
+## Overview
 
 This project implements the Capital Asset Pricing Model (CAPM) to estimate the relationship between systematic risk (beta) and expected return.
 
@@ -10,7 +10,7 @@ The model is extended to:
 - A dynamically constructed portfolio
 - Beta estimation using both covariance and regression
 
-## 🧠 Key Concepts
+## Key Concepts
 
 ### 1. Log Returns
 
@@ -67,21 +67,21 @@ $$ \beta_p = \sum w_i \beta_i $$
    - Expected return using CAPM
 7. Visualize the market vs portfolio relationship
 
-## 📈 Assets Used
+## Assets Used
 
 - Apple Inc.
 - Tesla Inc.
 - Walmart Inc.
 - Market Proxy: SPDR S&P 500 ETF Trust
 
-## 📊 Results
+## Results
 
 ### Portfolio Beta
 
 - Covariance Method: **1.2637**
 - Regression Method: **1.2637**
 
-> 👉 Consistency between methods validates the implementation.
+ Consistency between methods validates the implementation.
 
 ### Expected Return (CAPM)
 
@@ -93,18 +93,18 @@ $$ \beta_p = \sum w_i \beta_i $$
 
 $$ \alpha = 0.0122 $$
 
-> 👉 Indicates positive abnormal performance relative to CAPM.
+Indicates positive abnormal performance relative to CAPM.
 
-## 📉 Visualization
+## Visualization
 
 The regression plot shows:
 
 - Scatter of market vs portfolio returns
 - CAPM regression line
 
-> 👉 The slope represents beta, and the intercept represents alpha.
+ The slope represents beta, and the intercept represents alpha.
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Tesla Inc.** exhibits high beta → highly sensitive to market movements
 - **Walmart Inc.** shows low beta → defensive asset
