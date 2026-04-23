@@ -111,3 +111,10 @@ The regression plot shows:
 - Portfolio beta (~1.26) indicates above-market risk exposure
 - Positive alpha suggests potential outperformance vs CAPM prediction
 
+---
+
+## Data Source
+
+Data was obtained using the `yfinance` library from Yahoo Finance.
+
+This project is for **educational purposes only** and does not constitute financial advice.
